@@ -20,14 +20,15 @@ class SearchBar extends React.Component {
                 <form className="ui form" onSubmit={this.onFormSubmit}>
                     <div className="field">
                         <label>
-                            
+                        
                             <h1 className = "headline">
-                            <i class="music icon"></i>
+                            <i className="music icon"></i>
                                  Music Jam 
                             </h1>
                         </label>
                         <input type="text" value={this.state.term}
-                            onChange={this.onInputChange} ></input>
+                            onChange={this.onInputChange} >
+                        </input>
                     </div>
                 </form>
             </div>
