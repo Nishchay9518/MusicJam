@@ -26,7 +26,7 @@ class SearchBar extends React.Component {
                                  Music Jam 
                             </h1>
                         </label>
-                        <input type="text" value={this.state.term}
+                        <input type="text" placeholder="Search anything" value={this.state.term}
                             onChange={this.onInputChange} >
                         </input>
                     </div>

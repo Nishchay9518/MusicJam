@@ -18,7 +18,7 @@ const VideoDetail = ({ video }) => {
         <iframe title="video player" src={videoSrc} />
       </div>
       <div className="ui segment">
-        <h4 className="ui header">
+        <h4 className="ui">
           {video.snippet.title.replace(/&amp;/g, "&").replace(/&#39;/g, " ")}
         </h4>
         <p>{video.snippet.description}</p>

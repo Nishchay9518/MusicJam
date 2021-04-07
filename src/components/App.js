@@ -4,6 +4,7 @@ import SearchBar from './SearchBar';
 import youtube from '../apis/Youtube';
 import VideoDetail from './VideoDetail';
 import './VideoItem.css';
+import Theme from './theme';
 
 class App extends React.Component {
     state = { videos: [], selectedVideo: null };
@@ -29,6 +30,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="ui container bg-color">
+                {/* <Theme/> */}
                 <SearchBar
                     onFormSubmit={this.onTermSubmit} />
                 <div className="ui grid">

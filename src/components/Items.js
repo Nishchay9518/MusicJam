@@ -6,7 +6,7 @@ const Items = ({ video , onVideoSelect }) => {
         <div onClick = {() => onVideoSelect(video)} className="video item">
             <img alt={video.snippet.title} className="ui image " src={video.snippet.thumbnails.medium.url} />
             <div className="content">
-                <div className="header">
+                <div className="list-text">
                     {video.snippet.title.replace(/&amp;/g, '&').replace(/&#39;/g, ' ')}
                 </div>
             </div>
